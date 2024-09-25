@@ -1,3 +1,70 @@
-body{
-    background-color:#ff5500;
+body {
+    background-image: url(https://i.pinimg.com/originals/d2/ff/4b/d2ff4baa38d352b8a1e5c698d013b459.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width:700px) {
+
+    nav,
+    .row {
+        flex-direction: column;
+    }
+}
+
+section {
+    align-items: end;
+}
+.Foto{
+    padding: 15px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.studies {
+    padding: 10px;
+    margin: 100px;
+    height: 205px;
+    width: 900px;
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    border-color: blue;
+    margin-bottom: 0px;
+}
+
+.ingenieer_sistem {
+    padding: 10px;
+    margin: 100px;
+    height: 200px;
+    width: 900px;
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    border-color: blue;
+    margin-bottom: 0px;
+}
+
+.fullstack_development {
+    grid-template-columns: 1fr auto;
+    padding: 10px;
+    margin: 100px;
+    height: 200px;
+    width: 900px;
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    border-color: blue;
+    margin-bottom: 0px;
+}
+
+.IA_fullstack {
+    padding: 10px;
+    margin: 100px;
+    height: 200px;
+    width: 900px;
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    border-color: blue;
+    margin-bottom: 0px;
 }

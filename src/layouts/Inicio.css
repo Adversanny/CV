@@ -18,6 +18,7 @@ nav .funcionesprincipales button{
     
  }
 nav .funcionesprincipales button:hover{
+    grid-template-columns: repeat(3,auto);
     cursor: pointer;
     background-color: rgb(85, 180, 218);
     margin-top: 50px;
