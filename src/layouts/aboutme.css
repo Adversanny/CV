@@ -14,16 +14,11 @@ body {
 section {
     align-items: end;
 }
-.Foto{
-    padding: 15px;
-    width: 100px;
-    border-radius: 50%;
-}
 
-.Perfil {
+.Bibliography {
     padding: 10px;
     margin: 100px;
-    height: 150px;
+    height: 200px;
     width: 900px;
     color: black;
     background-color: beige;
@@ -32,11 +27,14 @@ section {
     margin-bottom: 0px;
 }
 
-.Bibliografia {
+.Description {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-columns: repeat(2, auto);
     padding: 10px;
     margin: 100px;
     height: 200px;
-    width: 500px;
+    width: 900px;
     color: black;
     background-color: beige;
     border-radius: 10px;
@@ -44,37 +42,14 @@ section {
     margin-bottom: 0px;
 }
 
-.Referencias {
+.Hobbies {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-columns: repeat(2, auto);
     padding: 10px;
     margin: 100px;
     height: 200px;
-    width: 500px;
-    color: black;
-    background-color: beige;
-    border-radius: 10px;
-    border-color: blue;
-    margin-bottom: 0px;
-}
-
-.Trabajos{
-    padding: 10px;
-    margin: 100px;
-    height: 200px;
-    width: 500px;
-    color: black;
-    background-color: beige;
-    border-radius: 10px;
-    border-color: blue;
-    margin-bottom: 0px;
-}
-
-.Contactos {
-    animation-name: none;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 100px;
-    height: 200px;
-    width: 500px;
+    width: 900px;
     color: black;
     background-color: beige;
     border-radius: 10px;
